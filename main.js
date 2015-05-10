@@ -1,7 +1,6 @@
 var glRenderer = new THREE.WebGLRenderer( { antialias: true } );
 document.body.appendChild( glRenderer.domElement );
 
-// create another renderer and place it right on the glRenderer
 var cssRenderer = new THREE.CSS3DStereoRenderer();
 cssRenderer.setSize( window.innerWidth, window.innerHeight );
 cssRenderer.domElement.style.position = 'absolute';
@@ -39,6 +38,8 @@ element.src = "http://mikestaub.github.io/daisywheeljs";
 element.style.width = '2000px';
 element.style.height = '1000px';
 element.style.backgroundColor = 'gray';
+element.style.opacity = 0.97;
+
 var cssObject = new THREE.CSS3DObject( element );
 cssObject.position.z = -2500;
 cssScene.add(cssObject);

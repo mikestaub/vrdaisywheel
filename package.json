@@ -1,0 +1,22 @@
+{
+  "name": "vrdaisywheel",
+  "version": "0.0.1",
+  "description": "A demo of what a daisywheel UI could look like in WebVR.",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikestaub/vrdaisywheel.git"
+  },
+  "keywords": [
+    "VR", "WebVR", "daisywheel"
+  ],
+  "author": "mikestaub",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikestaub/vrdaisywheel/issues"
+  },
+  "homepage": "https://github.com/mikestaub/vrdaisywheel"
+}
