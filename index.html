@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>VR Daisy Wheel Demo</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			body {
+				background-color: #fff;
+				color: #fff;
+				margin: 0px;
+				padding: 0;
+				overflow: hidden;
+			}
+		</style>
+		<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/mikestaub/daisywheeljs/master/dist/daisywheel.min.css">
+	</head>
+
+	<body>
+
+	</body>
+
+	<script src="js/three.min.js"></script>
+	<!--  from http://threejs.org/examples/js/renderers/CSS3DStereoRenderer.js -->
+	<script src="js/CSS3DStereoRenderer.js"></script>
+
+	<!--
+	VRControls.js acquires positional information from connected VR devices
+	and applies the transformations to a three.js camera object.
+	 -->
+	<script src="js/VRControls.js"></script>
+
+	<!--
+	VREffect.js handles stereo camera setup and rendering.
+	-->
+	<script src="js/VREffect.js"></script>
+
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+	<script src="https://cdn.rawgit.com/mikestaub/daisywheeljs/master/gamepad.js"></script>
+	<script src="https://cdn.rawgit.com/mikestaub/daisywheeljs/master/dist/daisywheel.min.js"></script>
+
+	<script src="main.js"></script>
+
+</html>
